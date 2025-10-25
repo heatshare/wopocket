@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="影视宝 - 海量高清影视免费看，无广告，聚合全网热门电影电视剧综艺动漫" />
+  <title>影视宝 - 免费高清影视 App</title>
+  
+  <!-- 微信分享必需 -->
+  <meta property="og:title" content="影视宝 - 免费高清影视 App" />
+  <meta property="og:description" content="海量高清影视免费看，无广告，聚合全网热门内容" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://yourdomain.com/movie-app-landing.html" />
+  <!-- 注意：微信分享缩略图建议保留，但你要求去图，此处可留空或使用纯色图（见下方说明） -->
+  <!-- <meta property="og:image" content="https://yourdomain.com/share-thumb.jpg" /> -->
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+      background: #0f0f1b;
+      color: #f0f0f0;
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 80px 20px 60px;
+      background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+    }
+
+    .hero h1 {
+      font-size: 2.2rem;
+      font-weight: 800;
+      margin-bottom: 16px;
+      background: linear-gradient(90deg, #ff6b6b, #ffa500, #4ecdc4);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+
+    .hero p {
+      font-size: 1.1rem;
+      color: #ccc;
+      max-width: 600px;
+      margin: 0 auto 30px;
+    }
+
+    .download-btn {
+      display: inline-block;
+      padding: 14px 36px;
+      background: #ff4d4d;
+      color: white;
+      font-size: 1.15rem;
+      font-weight: 600;
+      text-decoration: none;
+      border-radius: 50px;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 15px rgba(255, 77, 77, 0.4);
+    }
+
+    .download-btn:hover {
+      background: #ff3333;
+      transform: translateY(-2px);
+    }
+
+    .section {
+      padding: 50px 0;
+    }
+
+    .section-title {
+      text-align: center;
+      font-size: 1.8rem;
+      margin-bottom: 40px;
+      color: white;
+    }
+
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 24px;
+    }
+
+    .feature {
+      text-align: center;
+      padding: 24px 16px;
+      background: rgba(30, 30, 50, 0.6);
+      border-radius: 16px;
+    }
+
+    .feature h3 {
+      font-size: 1.3rem;
+      margin: 16px 0 10px;
+      color: white;
+    }
+
+    .feature p {
+      color: #aaa;
+      font-size: 0.95rem;
+    }
+
+    .hot-list {
+      background: rgba(20, 20, 35, 0.7);
+      padding: 40px 0;
+    }
+
+    .content-list {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+
+    .content-item {
+      padding: 12px 0;
+      border-bottom: 1px solid #2a2a4a;
+      color: #ddd;
+    }
+
+    .testimonials {
+      text-align: center;
+    }
+
+    .rating {
+      color: #ffd700;
+      font-size: 1.4rem;
+      margin-bottom: 16px;
+    }
+
+    .review {
+      max-width: 600px;
+      margin: 0 auto 24px;
+      padding: 20px;
+      background: rgba(30, 30, 50, 0.6);
+      border-radius: 16px;
+      font-style: italic;
+      color: #ddd;
+    }
+
+    .faq-item {
+      margin-bottom: 20px;
+      background: rgba(30, 30, 50, 0.6);
+      padding: 20px;
+      border-radius: 12px;
+    }
+
+    .faq-item h3 {
+      color: #ff6b6b;
+      margin-bottom: 8px;
+    }
+
+    .faq-item p {
+      color: #bbb;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px 0;
+      color: #777;
+      font-size: 0.9rem;
+      border-top: 1px solid #222;
+    }
+
+    @media (max-width: 768px) {
+      .hero h1 { font-size: 1.8rem; }
+      .hero p { font-size: 1rem; }
+    }
+  </style>
+</head>
+<body>
+  <!-- 首屏 -->
+  <div class="hero">
+    <div class="container">
+      <h1>海量影视 · 免费高清 · 无广告</h1>
+      <p>聚合全网热门电影、电视剧、综艺、动漫，一键畅看，播放流畅不卡顿</p>
+      <a href="https://your-download-link.com/app.apk" class="download-btn">立即下载 App</a>
+      <p style="margin-top: 16px; color: #aaa; font-size: 0.95rem;">
+        手机浏览器打开即可下载 · 支持 Android / 鸿蒙
+      </p>
+    </div>
+  </div>
+
+  <!-- 核心功能 -->
+  <div class="container section">
+    <h2 class="section-title">为什么选择我们？</h2>
+    <div class="features">
+      <div class="feature">
+        <h3>🎬 全网聚合</h3>
+        <p>整合主流平台资源，一个 App 看遍全网热门内容</p>
+      </div>
+      <div class="feature">
+        <h3>🔍 智能搜索</h3>
+        <p>支持片名、演员、类型模糊搜索，找片更快</p>
+      </div>
+      <div class="feature">
+        <h3>📺 高清流畅</h3>
+        <p>1080P 蓝光画质，秒播不卡顿，体验更佳</p>
+      </div>
+      <div class="feature">
+        <h3>🚫 无广告打扰</h3>
+        <p>播放全程无贴片、无弹窗，沉浸式观影</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- 热门内容（纯文字） -->
+  <div class="hot-list">
+    <div class="container">
+      <h2 class="section-title">热门内容</h2>
+      <div class="content-list">
+        <div class="content-item">• 电影：《热辣滚烫》《周处除三害》《年会不能停！》</div>
+        <div class="content-item">• 电视剧：《庆余年2》《墨雨云间》《长相思2》</div>
+        <div class="content-item">• 综艺：《歌手2024》《奔跑吧》《花儿与少年》</div>
+        <div class="content-item">• 动漫：《咒术回战》《间谍过家家》《鬼灭之刃》</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 用户评价 -->
+  <div class="container section testimonials">
+    <h2 class="section-title">用户好评</h2>
+    <div class="rating">⭐⭐⭐⭐⭐ 4.9分</div>
+    <div class="review">“找了好久的无广告影视 App，终于遇到了！更新快，画质清晰！”</div>
+    <div class="review">“界面简洁，没有乱七八糟的推荐，纯粹就是用来追剧的。”</div>
+  </div>
+
+  <!-- FAQ -->
+  <div class="container section">
+    <h2 class="section-title">常见问题</h2>
+    <div class="faq-item">
+      <h3>是否收费？</h3>
+      <p>基础功能完全免费。</p>
+    </div>
+    <div class="faq-item">
+      <h3>有广告吗？</h3>
+      <p>播放过程界面无弹窗、无贴片，纯净观影体验。</p>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>© 2025 WoW App 版权所有</p>
+    </div>
+  </footer>
+
+  <!-- <!-- 微信 JS-SDK -->
+  <script src="https://res.wx.qq.com/open/js/jweixin-1.6.0.js"></script>
+  <script>
+    // ===== 微信分享配置（需后端配合）=====
+    // 注意：以下 config 需要由你的服务器动态生成签名（signature）
+    // 不能写死！此处仅为示例结构
+
+    // 请将以下变量替换为你的实际值（由后端提供）
+    const wxConfig = {
+      debug: false, // 上线请设为 false
+      appId: 'YOUR_WECHAT_APPID', // 你的公众号 AppID
+      timestamp: 1712345678,     // 时间戳（由后端生成）
+      nonceStr: 'random_nonce',   // 随机字符串（由后端生成）
+      signature: 'generated_signature', // 签名（由后端生成）
+      jsApiList: ['updateAppMessageShareData', 'updateTimelineShareData']
+    };
+
+    wx.config(wxConfig);
+
+    wx.ready(() => {
+      const shareData = {
+        title: '影视宝 - 免费高清影视 App',
+        desc: '海量高清影视免费看，无广告，聚合全网热门电影电视剧综艺动漫',
+        link: 'https://yourdomain.com/movie-app-landing.html', // 当前页面 URL
+        // imgUrl: 'https://yourdomain.com/share-thumb.jpg', // 分享缩略图（建议提供 300x300 以上）
+      };
+
+      // 分享给好友
+      wx.updateAppMessageShareData(shareData);
+
+      // 分享到朋友圈
+      wx.updateTimelineShareData({
+        ...shareData,
+        title: shareData.desc // 朋友圈标题通常用描述
+      });
+
+      console.log('微信分享已配置');
+    });
+
+    wx.error((res) => {
+      console.error('微信分享配置失败:', res);
+      // 可在此提示用户“请在微信中打开”
+    });
+  </script> -->
+</body>
+</html>
+
+<!-- <meta property="og:image" content="https://yourdomain.com/text-thumb.png" /> -->
+
