@@ -12,10 +12,5 @@
 		"title": "\u53e3\u888b\u5f71\u89c6",
 		"titleicon": "icon-dongman",
 		"method": "http:\/\/api.ffzyapi.com\/api.php\/provide\/vod\/from\/ffm3u8\/"
-	}, {
-		"id": "2",
-		"title": "\u53e3\u888b\u5f71\u89c6",
-		"titleicon": "icon-dongman",
-		"method": "http:\/\/api.ffzyapi.com\/api.php\/provide\/vod\/from\/ffm3u8\/"
 	}]
 }
