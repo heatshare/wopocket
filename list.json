@@ -4,6 +4,12 @@
   "pagecount": 1,
   "message": [
     {
+      "id": "6",
+      "title": "扫码",
+      "titleicon": "icon-erciyuan",
+      "method": "/pages/saoma"
+    },
+    {
       "id": "5",
       "title": "二次元图片",
       "titleicon": "icon-erciyuan",
