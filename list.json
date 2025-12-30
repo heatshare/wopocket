@@ -19,7 +19,7 @@
       "id": "4",
       "title": "学英语",
       "titleicon": "icon-xuexi",
-      "method": "http://192.168.3.101/study/api?action=list"
+      "method": "http://192.168.3.56:8001/study/api?action=list"
     },
     {
       "id": "3",
